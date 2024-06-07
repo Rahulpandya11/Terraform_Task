@@ -1,9 +1,9 @@
 variable "region" {
-  default = "us-west-2"
+  default = "us-east-1"
 }
 
 variable "ami" {
-  default = "ami-0eb9d67c52f5c80e5"  # Replace with your desired AMI
+  default = "ami-03c983f9003cb9cd1" 
 }
 
 variable "instance_type" {
@@ -19,6 +19,5 @@ variable "subnet_cidr" {
 }
 
 variable "allowed_ip" {
-  description = "The IP address allowed to SSH into the bastion host"
-  default     = "59.184.156.139/32"  # Replace YOUR_IP with your IP address
+  default     = "59.184.156.139/32"  
 }
